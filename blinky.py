@@ -10,4 +10,4 @@ while True:
         blinkt.clear()
         blinkt.set_pixel(i, 255, 0, 0)
         blinkt.show()
-        time.sleep(0.05)
+    time.sleep(0.05)
