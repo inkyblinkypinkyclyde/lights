@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import blinkt
 import time
 
@@ -9,7 +9,7 @@ def red_on():
 
 def yellow_on():
     blinkt.clear()
-    blinkt.set_all(128, 128, 0)
+    blinkt.set_all(150, 64, 0)
     blinkt.show()
 
 def green_on():
@@ -22,7 +22,7 @@ def off():
     blinkt.show()
 
 while True:
-    option = raw_input('Select (g)reen, (a)mber or (r)ed for lights or switch (o)ff lights or (e)xit\n')
+    option = input('Select (g)reen, (a)mber or (r)ed for lights or switch (o)ff lights or (e)xit\n')
     if option == 'g':
         green_on()
     elif option == 'a':
