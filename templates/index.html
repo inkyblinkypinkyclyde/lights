@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Quiet Lights</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://media.istockphoto.com/vectors/colored-traffic-light-round-icon-vector-illustration-vector-id1024917080?k=20&m=1024917080&s=612x612&w=0&h=Rc3UuwtCgeAGu7SJCqSY-dqlfsa29wbJbiiC0f17AB0=" />
+    <style type="text/css">
+        body {
+            background-color: rgba(0, 0, 0, 0.543);
+        }
+
+        input[type=submit] {
+            width: 100%;
+            font-size: 500%;
+        }
+
+        input[type=image] {
+            border-radius: 30px;
+            max-width: 100%
+        }
+
+        img {
+            max-width: 100%
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="banner">
+        <table>
+            <tr>
+                <td align="center">
+                    <form action="/green" method="post">
+                        <input type="image"
+                            src="https://assets.digital.cabinet-office.gov.uk/media/559fbe3e40f0b6156700004f/traffic-light-green.jpg"
+                            value="Green"></input>
+                    </form>
+                </td>
+                <td align="center">
+                    <form action="/amber" method="post">
+                        <input type="image"
+                            src="https://assets.digital.cabinet-office.gov.uk/media/559fbe48ed915d1592000048/traffic-light-amber.jpg"
+                            value="Amber"></input>
+                    </form>
+                </td>
+                <td align="center">
+                    <form action="/red" method="post">
+                        <input type="image"
+                            src="https://assets.digital.cabinet-office.gov.uk/media/559fbe1940f0b6156700004d/traffic-light-red.jpg"
+                            value="Red"></input>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <form action="/off" method="post">
+                        <input type="image"
+                            src="https://media.istockphoto.com/vectors/vector-warning-stop-sign-icon-caution-stop-sign-sticker-in-red-and-vector-id1156490264?k=20&m=1156490264&s=612x612&w=0&h=ybP0kssmCM2n_-fi50IQchn-Th4qneRuQlgG6pbgk2g="
+                            value="Stop"></input>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
